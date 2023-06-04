@@ -1,0 +1,118 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Fraunces', serif;
+    box-sizing: border-box;
+  
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(179, 186, 192);
+}
+
+
+main{
+    padding: 5px;
+    max-width: 400px;
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 0 10px 10px 0;
+}
+
+section{
+    padding: 20px;
+}
+
+section h3{
+  padding-bottom: 20px;
+}
+
+img{
+    width: 280px;
+    display: flex;
+    justify-content: left;
+    border-radius: 10px 0 0 10px;
+}
+
+h1 span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1{
+    font-size: 14px;
+    font-family: 'Fraunces', serif;
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+}
+
+h3{
+    font-style: none;
+    
+}
+
+.div1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.p2{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    padding-top: 3%;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: aliceblue;
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    padding: 12px;
+    border-radius: 5px;
+    justify-content: space-around 10px;
+    cursor: pointer;
+    transition: all linear 140ms;
+}
+
+
+
+button:hover{
+    background-color: hsl(157, 33%, 17%);
+}
+
+@media screen and (max-width: 1800px) {
+    .imagem2 {
+        display: none ;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .imagem1{
+        display: none;
+    }
+
+    main{
+        padding: 0;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .imagem2{
+        display: flex;
+        padding: 0;
+        width: 406px;
+        padding-right: 6px;
+        border-radius: 15px 15px 0 0;
+    }
+}
